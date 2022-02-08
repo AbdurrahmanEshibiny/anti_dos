@@ -1,7 +1,6 @@
 #!/bin/bash
 
-sudo apt install tcpdump
-sudo apt install iptables
+sudo apt install -y -qq tcpdump  iptables
 
 
 declare -A ipTable
